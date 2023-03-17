@@ -2,4 +2,4 @@
 
 | Project | Concepts|
 | ----|-------- |
-| [Hi Mom](/bash-projects/himom.sh) | Conversation with mom |
+| [Hi Mom](/himom.sh) | Conversation with mom |
