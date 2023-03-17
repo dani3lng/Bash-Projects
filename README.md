@@ -1,1 +1,1 @@
-# bash-projects
+# Bash Shell Projects
