@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #assign multiple argument to variables
-name= $1
-compliment= $2
+name=$1
+compliment=$2
 
 echo "Good morning $name!!"
 
