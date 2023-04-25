@@ -22,6 +22,6 @@ echo "*********.."
 echo "***********"
 
 #variable for millionaire age
-getrich=$(( $RANDOM % 15 ) + $age ))
+getrich=$((( $RANDOM % 15 ) + $age ))
 
 echo "You will be a millionaire at $getrich years old."
