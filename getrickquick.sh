@@ -15,10 +15,15 @@ sleep 2
 
 echo "Calculating"
 echo "..........."
+sleep 1
 echo "**........."
+sleep 1
 echo "**........."
+sleep 1
 echo "******....."
+sleep 1
 echo "*********.."
+sleep 1
 echo "***********"
 
 #variable for millionaire age
