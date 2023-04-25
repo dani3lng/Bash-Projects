@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #assign name variable
-name = "Daniel"
+name="Daniel"
 
 echo "Good morning $name!!"
 
