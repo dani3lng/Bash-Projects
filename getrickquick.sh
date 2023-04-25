@@ -9,4 +9,4 @@ read age
 
 sleep 3
 
-echo "Hello, $name, you are $age years old."
+echo "Hello $name, you are $age years old."
