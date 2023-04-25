@@ -11,7 +11,17 @@ sleep 3
 
 echo "Hello $name, you are $age years old."
 
-millionaire=$((RANDOM + $age))
 sleep 2
 
-echo "You will be a millionaire at $millionaire years old."
+echo "Calculating"
+echo "..........."
+echo "**........."
+echo "**........."
+echo "******....."
+echo "*********.."
+echo "***********"
+
+#variable for millionaire age
+getrich=$(( $RANDOM % 15 ) + $age ))
+
+echo "You will be a millionaire at $getrich years old."
