@@ -1,6 +1,9 @@
 #!/bin/bash
 
-name="name"
+#asks for user name input
+echo "What is your name?"
+#uses user input for name variable
+read name
 
 echo "Good morning $name!!"
 
