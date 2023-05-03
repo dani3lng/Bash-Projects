@@ -1,13 +1,19 @@
 #!/bin/bash
 #push up counter program
 
-x=1
-echo "How many pushups are you doing?"
-read count
+x=0
+echo "Time to do pushups"
+echo "Press 'q' to quit"
 
-while [[ $x -le $count ]]
+until [[ $count == "q" ]]
     do 
-        echo "...$x"
-        (( x ++))
+        echo "Down..."
         sleep 1
+        echo "Up..."
+        sleep 1
+        echo "$x"
+        (( x ++))
+        read count
     done
+
+echo "You did $x pushups"
