@@ -1,11 +1,16 @@
 #!/bin/bash
-#loop program to ping multiple websites
+#is my internet down
 
-for x in google.com facebook.com instagram.com twitter.com
-do 
-    if ping -q -c 2 -W 1 $x > /dev/null; then
-        echo "$x is up"
+echo "What do you want to check?"
+read target
+
+while true
+do
+    if ping -q -c 2 -W 1 $target > /dev/null; then
+        echo "Hey, you're up!!"
+        break
     else
-        echo "$x is down"
+        echo "$target is currently down"
     fi
+sleep 2
 done
