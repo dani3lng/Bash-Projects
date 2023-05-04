@@ -1,0 +1,12 @@
+seattle
+nyc
+sandiego
+sydney
+london
+portland
+tokyo
+athens
+bangkok
+paris
+dallas
+sanfrancisco
